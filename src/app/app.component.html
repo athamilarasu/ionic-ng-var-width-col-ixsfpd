@@ -1,0 +1,34 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Almayasa is the best</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <h1>Grid With Columns with varying sizes based on content</h1>
+    <ion-grid>
+      <ion-row>
+        <ion-col> 1 of 3 </ion-col>
+        <ion-col size="auto">
+          2 of 3 <small>(this should take up more space)</small>
+        </ion-col>
+        <ion-col> 3 of 3 </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col> 1 of 6 </ion-col>
+        <ion-col> 2 of 6 </ion-col>
+        <ion-col size="auto">
+          3 of 6
+          <small
+            >(this will also resize automatically to fit the content)</small
+          >
+        </ion-col>
+        <ion-col> 4 of 6 </ion-col>
+        <ion-col> 5 of 6 </ion-col>
+        <ion-col> 6 of 6 </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-app>
